@@ -1,0 +1,313 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #fff;
+    background-color:#1b1b1b;
+  
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: #1b1b1b;
+   width: 100vw;
+}
+
+.nav_logo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 80px;
+    padding: 20px;
+}
+.logo{
+   padding-top: 5px;
+}
+.nav_logo_title{
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 5px;
+}
+
+
+
+.middle_nav{
+ display: flex;
+}
+
+.middle_nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+    font-size: 1.25rem;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.last_nav{
+    margin-left: 50px;
+}
+.last_nav ul{
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+    
+}
+
+.theme_img{
+    width: 50px;
+    height: 40px;
+    padding-top: 5px;
+}
+
+.serach_input{
+    padding-top: 5px;
+    padding-bottom: 0.5em;
+    padding-left: 5em;
+    border-radius: 5%;
+     font-size: 1rem;
+     
+}
+.input_tab{
+    padding-top: 5px;
+}
+
+
+.download_btn{
+border-color: blue;
+background-color: rgb(65, 65, 248);
+border-width: 2px;
+padding: 8px 16px 8px 16px;
+margin-left: 5px;
+color: #fff;
+font-size: 1rem;
+}
+
+.first_btn{
+    padding-top: 5px;
+}
+
+
+
+/* nav bar css end */
+
+
+
+.heading{
+    margin-left: 35%;
+    display: flex;
+    font-size: 0.75rem;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.spanAt{
+    color: rgb(112, 112, 226);
+    text-decoration: underline;
+    padding-right: 5px;
+}
+
+.btn_edit{
+ padding-left: 30px;
+ padding-right: 30px;
+ letter-spacing: 2px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px;
+    gap: 15px;
+    width: 100%;
+    padding-top: 80px;
+    background-color: #222222e4;
+}
+
+.left_container{
+    margin-left: 100px;
+   
+}
+
+.large_button{
+    margin-top: 60px;
+}
+.run_button{
+    
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 32px;
+    background-color: #363434;
+    border: 1px solid var(--card-border);
+    color: var(--foreground);
+    width: max-content;
+  
+}
+
+.large_heading{
+    margin-top: 20px;
+    font-size: 3.5rem;
+    width: max-content;
+    font-weight: 600;
+}
+
+.btn_edit{
+    margin-top: 20px;
+    padding:15px 10px 15px 10px ;
+    font-size: 1.25rem;
+   
+}
+.btn_padding{
+    margin-top: 5px;
+}
+
+.sp1{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.span_padding{
+    margin-top: 25px;
+}
+.white_color{
+color:#fff
+}
+
+.last_para{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.right_container{
+    margin-right: 100px;
+    
+}
+
+
+.container_two{
+    background-color: #1b1b1b;
+    margin-top: 75px;
+
+    gap: 100px;
+}
+
+.left_heading{
+   font-size: 2.75rem;
+   font-weight: 400;
+}
+
+.left_heading_para{
+    font-size:1.25rem;
+    margin-top: 10px;
+    color: rgb(175, 178, 181);
+}
+
+.inner_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.one_image{
+    width: 50px;
+
+}
+
+.first_container{
+    display: flex;
+    flex-direction: column;
+    margin-right:80px ;
+    justify-content: space-evenly;
+}
+
+.code_one{
+    margin-left: 30px;
+}
+
+.s2{
+    font-size: 1.25rem;
+}
+
+.second_inner_container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.second_container_img{
+    width: 40px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 25%;
+}
+
+.inner_two{
+    display: flex;
+    flex-direction: row;
+    background-color: #333232;
+    padding: 0px 35px 0px 20px;
+   row-gap: 15px;
+   box-shadow: 2px 5px 8px gainsboro;
+ 
+}
+
+.seconde_container_head{
+   padding-left: 15px;
+   padding-top: 5px;
+}
+
+.heading_two{
+    font-size: 1.25rem;
+    font-weight: 600;
+    
+}
+
+.outer_two{
+    margin-right: 5px;
+}
+
+.outer_inner_container{
+    margin-top: 5px;
+}
+
+.space{
+    margin-top: 15px;
+}
+
+.container_three{
+    background-color:#1b1b1b;
+}
+
+.right_one{
+    padding-left: 15px;
+}
+
+.right_two{
+    margin-left: 60px;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.last_span{
+    padding-left: 100px;
+}
